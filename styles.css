@@ -1,10 +1,11 @@
 body {
     background-color: darkorchid;
     color: gold;
-    max-width: 500px;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     font-family: "MuseoModerno", sans-serif;
+    padding: 0% 10%;
 }
 
 h1 {
@@ -17,11 +18,12 @@ h2 {
     font-weight: 600;
     text-transform: uppercase;
     background-color: darkmagenta;
-    padding: 20px 30px 40px;
+    padding: 20px 30px 20px;
     border-width: 10px;
     border-style: ridge;
     border-radius: 70px 0px;
-    margin-bottom: 64px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 a {
@@ -50,4 +52,33 @@ a:hover {
     font-size: 130px;
     display: block;
     margin-top: 40px;
+}
+
+size {
+    font-size: 40px;
+}
+
+weight {
+    font-weight: 10;
+}
+
+formm {
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+struct {
+    font-family: "Dancing Script", cursive;
+}
+
+texture {
+    letter-spacing: 13px;
+}
+
+color {
+    color: rgb(20, 255, 28);
+}
+
+direct {
+writing-mode: vertical-lr;
 }
